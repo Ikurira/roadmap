@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Heimdall Systems — Roadmap Tracker</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="app">
+
+  <header class="app-header">
+    <div class="app-header-title">
+      <h1>Heimdall Systems <span class="app-header-sub">Roadmap Tracker</span></h1>
+      <p class="app-header-tagline">6-month plan: foundation &rarr; first paid contract &middot; drag a card or open a task to update status</p>
+    </div>
+    <div class="app-header-actions">
+      <span id="generatedAt" class="generated-at"></span>
+      <span id="localEditsBadge" class="local-edits-badge" hidden></span>
+      <button id="saveStateBtn" class="btn btn-text" type="button" hidden title="Save your local status changes to a heimdall-state.json file">Save</button>
+      <button id="loadStateBtn" class="btn btn-text" type="button" title="Load status changes from a previously saved heimdall-state.json file">Load</button>
+      <input id="loadStateInput" type="file" accept="application/json" hidden />
+      <button id="exportEditsBtn" class="btn btn-text" type="button" hidden title="Download your local status changes as CSV so you can merge them into the master spreadsheet">Export edits</button>
+      <button id="resetEditsBtn" class="btn btn-text" type="button" hidden title="Discard local changes and revert to the spreadsheet data">Reset edits</button>
+      <button id="themeToggle" class="btn btn-ghost" type="button" aria-label="Toggle dark mode">
+        <span id="themeToggleIcon">&#9789;</span>
+      </button>
+    </div>
+  </header>
+
+  <section id="statsBar" class="stats-bar"></section>
+
+  <nav class="tab-nav" role="tablist">
+    <button class="tab-btn is-active" data-tab="board" role="tab" aria-selected="true">Board</button>
+    <button class="tab-btn" data-tab="gantt" role="tab" aria-selected="false">Gantt</button>
+    <button class="tab-btn" data-tab="table" role="tab" aria-selected="false">Table</button>
+  </nav>
+
+  <section class="toolbar">
+    <input id="searchInput" class="search-input" type="search" placeholder="Search tasks, IDs, notes&hellip;" />
+    <div id="phaseFilter" class="phase-filter"></div>
+    <div id="groupByWrap" class="group-by-wrap">
+      <span class="group-by-label">Group by</span>
+      <button class="btn btn-toggle is-active" data-group="status" type="button">Status</button>
+      <button class="btn btn-toggle" data-group="phase" type="button">Phase</button>
+    </div>
+  </section>
+
+  <main class="tab-panels">
+    <section id="panel-board" class="tab-panel is-active"></section>
+    <section id="panel-gantt" class="tab-panel"></section>
+    <section id="panel-table" class="tab-panel"></section>
+  </main>
+
+</div>
+
+<div id="modalRoot" class="modal-root" hidden>
+  <div class="modal-backdrop" data-close="1"></div>
+  <div class="modal-card" role="dialog" aria-modal="true"></div>
+</div>
+
+<div id="tooltip" class="viz-tooltip" hidden></div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
