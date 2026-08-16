@@ -10,7 +10,8 @@ var ROADMAP_DATA = [
     "status": "Done",
     "dependency": [],
     "milestone": false,
-    "notes": "Confirm Companies House number on file"
+    "notes": "Confirm Companies House number on file",
+    "automationTier": "alert"
   },
   {
     "id": "P0.2",
@@ -22,7 +23,8 @@ var ROADMAP_DATA = [
     "status": "Done",
     "dependency": [],
     "milestone": false,
-    "notes": null
+    "notes": null,
+    "automationTier": "alert"
   },
   {
     "id": "P0.3",
@@ -34,7 +36,8 @@ var ROADMAP_DATA = [
     "status": "Done",
     "dependency": [],
     "milestone": false,
-    "notes": "Verify Public Liability cover is also in place - doc only confirms PI"
+    "notes": "Verify Public Liability cover is also in place - doc only confirms PI",
+    "automationTier": "alert"
   },
   {
     "id": "P0.4",
@@ -46,7 +49,8 @@ var ROADMAP_DATA = [
     "status": "Done",
     "dependency": [],
     "milestone": false,
-    "notes": "Customer-agnostic controls / NFRs encoded as SCPs"
+    "notes": "Customer-agnostic controls / NFRs encoded as SCPs",
+    "automationTier": "alert"
   },
   {
     "id": "P0.5",
@@ -58,7 +62,8 @@ var ROADMAP_DATA = [
     "status": "Done",
     "dependency": [],
     "milestone": false,
-    "notes": null
+    "notes": null,
+    "automationTier": "alert"
   },
   {
     "id": "P0.6",
@@ -70,7 +75,8 @@ var ROADMAP_DATA = [
     "status": "Verify - status unclear",
     "dependency": [],
     "milestone": true,
-    "notes": "RISK: this is a pass/fail gate for almost every public sector procurement route incl. G-Cloud. Confirm whether basic CE (not CE+) is actually done - resolve in P1.1 if not"
+    "notes": "RISK: this is a pass/fail gate for almost every public sector procurement route incl. G-Cloud. Confirm whether basic CE (not CE+) is actually done - resolve in P1.1 if not",
+    "automationTier": "alert"
   },
   {
     "id": "P1.1",
@@ -84,7 +90,8 @@ var ROADMAP_DATA = [
       "P0.6"
     ],
     "milestone": true,
-    "notes": "~GBP 300-600 self-assessment; blocking for procurement registration"
+    "notes": "~GBP 300-600 self-assessment; blocking for procurement registration",
+    "automationTier": "alert"
   },
   {
     "id": "P1.2",
@@ -98,7 +105,8 @@ var ROADMAP_DATA = [
       "P0.5"
     ],
     "milestone": false,
-    "notes": "Columns: NCSC Principle / LZA-SCP Implementation / Security Hub Control ID / Audit Evidence Type"
+    "notes": "Columns: NCSC Principle / LZA-SCP Implementation / Security Hub Control ID / Audit Evidence Type",
+    "automationTier": "alert"
   },
   {
     "id": "P1.3",
@@ -112,7 +120,8 @@ var ROADMAP_DATA = [
       "P0.4"
     ],
     "milestone": false,
-    "notes": "1-2 pages non-technical stakeholder audience"
+    "notes": "1-2 pages non-technical stakeholder audience",
+    "automationTier": "alert"
   },
   {
     "id": "P1.4",
@@ -126,7 +135,8 @@ var ROADMAP_DATA = [
       "P0.4"
     ],
     "milestone": false,
-    "notes": "OU layout (Core/Security/Workloads/Sandbox) + log flow to Audit account conceptual only - no IP leakage"
+    "notes": "OU layout (Core/Security/Workloads/Sandbox) + log flow to Audit account conceptual only - no IP leakage",
+    "automationTier": "alert"
   },
   {
     "id": "P1.5",
@@ -138,7 +148,8 @@ var ROADMAP_DATA = [
     "status": "Not Started",
     "dependency": [],
     "milestone": false,
-    "notes": null
+    "notes": null,
+    "automationTier": "alert"
   },
   {
     "id": "P1.6",
@@ -155,7 +166,8 @@ var ROADMAP_DATA = [
       "P1.5"
     ],
     "milestone": false,
-    "notes": null
+    "notes": null,
+    "automationTier": "alert"
   },
   {
     "id": "P1-M",
@@ -169,7 +181,8 @@ var ROADMAP_DATA = [
       "P1.6"
     ],
     "milestone": true,
-    "notes": null
+    "notes": null,
+    "automationTier": "alert"
   },
   {
     "id": "P2.1",
@@ -181,7 +194,8 @@ var ROADMAP_DATA = [
     "status": "Not Started",
     "dependency": [],
     "milestone": false,
-    "notes": "Sanity-check the GBP 25k-40k assumption against 2-3 real awarded contract values"
+    "notes": "Sanity-check the GBP 25k-40k assumption against 2-3 real awarded contract values",
+    "automationTier": "alert"
   },
   {
     "id": "P2.2",
@@ -195,7 +209,8 @@ var ROADMAP_DATA = [
       "P2.1"
     ],
     "milestone": false,
-    "notes": "Follow \"high feature low implementation\" rule"
+    "notes": "Follow \"high feature low implementation\" rule",
+    "automationTier": "alert"
   },
   {
     "id": "P2.3",
@@ -209,7 +224,8 @@ var ROADMAP_DATA = [
       "P2.2"
     ],
     "milestone": false,
-    "notes": "Confidential & Proprietary footer on every page"
+    "notes": "Confidential & Proprietary footer on every page",
+    "automationTier": "alert"
   },
   {
     "id": "P2.4",
@@ -223,7 +239,8 @@ var ROADMAP_DATA = [
       "P2.2"
     ],
     "milestone": false,
-    "notes": "For council Heads of IT / CISOs"
+    "notes": "For council Heads of IT / CISOs",
+    "automationTier": "alert"
   },
   {
     "id": "P2.5",
@@ -235,7 +252,8 @@ var ROADMAP_DATA = [
     "status": "Not Started",
     "dependency": [],
     "milestone": false,
-    "notes": "Fixed scope / fixed price / 3-week delivery language"
+    "notes": "Fixed scope / fixed price / 3-week delivery language",
+    "automationTier": "alert"
   },
   {
     "id": "P2.6",
@@ -249,7 +267,8 @@ var ROADMAP_DATA = [
       "P2.2"
     ],
     "milestone": false,
-    "notes": "Lighter than full spec - used to earn the 15-min call before sharing full doc"
+    "notes": "Lighter than full spec - used to earn the 15-min call before sharing full doc",
+    "automationTier": "alert"
   },
   {
     "id": "P2-M",
@@ -266,7 +285,8 @@ var ROADMAP_DATA = [
       "P2.6"
     ],
     "milestone": true,
-    "notes": null
+    "notes": null,
+    "automationTier": "alert"
   },
   {
     "id": "P3.1",
@@ -278,7 +298,8 @@ var ROADMAP_DATA = [
     "status": "Not Started",
     "dependency": [],
     "milestone": false,
-    "notes": "1-3 week approval wait - kick off early do not block other phases on it"
+    "notes": "1-3 week approval wait - kick off early do not block other phases on it",
+    "automationTier": "alert"
   },
   {
     "id": "P3.2",
@@ -292,7 +313,8 @@ var ROADMAP_DATA = [
       "P3.1"
     ],
     "milestone": false,
-    "notes": null
+    "notes": null,
+    "automationTier": "alert"
   },
   {
     "id": "P3.3",
@@ -304,7 +326,8 @@ var ROADMAP_DATA = [
     "status": "Not Started",
     "dependency": [],
     "milestone": false,
-    "notes": null
+    "notes": null,
+    "automationTier": "alert"
   },
   {
     "id": "P3.4",
@@ -318,7 +341,8 @@ var ROADMAP_DATA = [
       "P1.1"
     ],
     "milestone": false,
-    "notes": "Keywords: AWS, Landing Zone, Cloud Migration, Cloud Security"
+    "notes": "Keywords: AWS, Landing Zone, Cloud Migration, Cloud Security",
+    "automationTier": "alert"
   },
   {
     "id": "P3.5",
@@ -332,7 +356,8 @@ var ROADMAP_DATA = [
       "P1.1"
     ],
     "milestone": false,
-    "notes": null
+    "notes": null,
+    "automationTier": "alert"
   },
   {
     "id": "P3.6",
@@ -346,7 +371,8 @@ var ROADMAP_DATA = [
       "P1.1"
     ],
     "milestone": false,
-    "notes": null
+    "notes": null,
+    "automationTier": "alert"
   },
   {
     "id": "P3.7",
@@ -358,7 +384,8 @@ var ROADMAP_DATA = [
     "status": "Not Started",
     "dependency": [],
     "milestone": false,
-    "notes": "Frameworks reopen every 12-18 months - do not miss the window"
+    "notes": "PARTIALLY ANSWERED (desk research 2026-08-15): G-Cloud 15 applications closed 30 Jan 2026, awards/go-live Sept 2026 - this cycle's window is already shut. Next window (G-Cloud 16) not yet announced. Reconfirm via gov.uk Digital Marketplace supplier blog before relying on it, then diarise.",
+    "automationTier": "alert"
   },
   {
     "id": "P3-M",
@@ -375,7 +402,8 @@ var ROADMAP_DATA = [
       "P3.6"
     ],
     "milestone": true,
-    "notes": "Marketplace approval typically lands around this date"
+    "notes": "Marketplace approval typically lands around this date",
+    "automationTier": "alert"
   },
   {
     "id": "P4.1",
@@ -389,7 +417,8 @@ var ROADMAP_DATA = [
       "P3.4"
     ],
     "milestone": false,
-    "notes": "Log every hit in heimdall_outreach_tracker.csv"
+    "notes": "Log every hit in heimdall_outreach_tracker.csv",
+    "automationTier": "alert"
   },
   {
     "id": "P4.2",
@@ -403,7 +432,8 @@ var ROADMAP_DATA = [
       "P4.1"
     ],
     "milestone": false,
-    "notes": null
+    "notes": null,
+    "automationTier": "alert"
   },
   {
     "id": "P4.3",
@@ -417,7 +447,8 @@ var ROADMAP_DATA = [
       "P4.2"
     ],
     "milestone": false,
-    "notes": null
+    "notes": null,
+    "automationTier": "alert"
   },
   {
     "id": "P4.4",
@@ -429,7 +460,8 @@ var ROADMAP_DATA = [
     "status": "Not Started",
     "dependency": [],
     "milestone": false,
-    "notes": "See heimdall_outreach_tracker.csv"
+    "notes": "See heimdall_outreach_tracker.csv",
+    "automationTier": "alert"
   },
   {
     "id": "P4.5",
@@ -444,7 +476,8 @@ var ROADMAP_DATA = [
       "P4.3"
     ],
     "milestone": false,
-    "notes": null
+    "notes": null,
+    "automationTier": "alert"
   },
   {
     "id": "P4.6",
@@ -459,7 +492,8 @@ var ROADMAP_DATA = [
       "P4.3"
     ],
     "milestone": false,
-    "notes": null
+    "notes": null,
+    "automationTier": "alert"
   },
   {
     "id": "P4.7",
@@ -473,7 +507,8 @@ var ROADMAP_DATA = [
       "P4.5"
     ],
     "milestone": false,
-    "notes": null
+    "notes": null,
+    "automationTier": "alert"
   },
   {
     "id": "P4.8",
@@ -487,7 +522,8 @@ var ROADMAP_DATA = [
       "P4.6"
     ],
     "milestone": false,
-    "notes": null
+    "notes": null,
+    "automationTier": "alert"
   },
   {
     "id": "P4.9",
@@ -501,7 +537,8 @@ var ROADMAP_DATA = [
       "P3.3"
     ],
     "milestone": false,
-    "notes": "Alternate channel - MSPs winning council work who lack AWS security depth"
+    "notes": "Alternate channel - MSPs winning council work who lack AWS security depth. ELEVATED PRIORITY as of 2026-08-15: with G-Cloud 15 and DOS7 supplier windows both closed (see X.2/X.3), subcontracting is one of only two viable near-term routes to a live deal alongside direct Contracts Finder tenders.",
+    "automationTier": "alert"
   },
   {
     "id": "P4-M",
@@ -516,7 +553,8 @@ var ROADMAP_DATA = [
       "P4.8"
     ],
     "milestone": true,
-    "notes": null
+    "notes": null,
+    "automationTier": "alert"
   },
   {
     "id": "P5.1",
@@ -530,7 +568,8 @@ var ROADMAP_DATA = [
       "P4-M"
     ],
     "milestone": false,
-    "notes": "Ongoing - log outcomes in tracker"
+    "notes": "Ongoing - log outcomes in tracker",
+    "automationTier": "alert"
   },
   {
     "id": "P5.2",
@@ -544,7 +583,8 @@ var ROADMAP_DATA = [
       "P5.1"
     ],
     "milestone": false,
-    "notes": null
+    "notes": null,
+    "automationTier": "alert"
   },
   {
     "id": "P5.3",
@@ -558,7 +598,8 @@ var ROADMAP_DATA = [
       "P5.2"
     ],
     "milestone": false,
-    "notes": "e.g. mini healthcheck or paid discovery workshop"
+    "notes": "e.g. mini healthcheck or paid discovery workshop",
+    "automationTier": "alert"
   },
   {
     "id": "P5.4",
@@ -572,7 +613,8 @@ var ROADMAP_DATA = [
       "P5.3"
     ],
     "milestone": false,
-    "notes": null
+    "notes": null,
+    "automationTier": "alert"
   },
   {
     "id": "P5.5",
@@ -586,7 +628,8 @@ var ROADMAP_DATA = [
       "P5.4"
     ],
     "milestone": false,
-    "notes": "First proof point for future outreach"
+    "notes": "First proof point for future outreach. STRATEGIC NOTE (2026-08-15): this also becomes the \"past performance / reference\" evidence that future Selection Questionnaires require and that Heimdall currently has zero of - not just marketing collateral, it's a prequal input for every contract after the first.",
+    "automationTier": "alert"
   },
   {
     "id": "P5.6",
@@ -600,7 +643,8 @@ var ROADMAP_DATA = [
       "P4-M"
     ],
     "milestone": false,
-    "notes": "Trigger only if response rate from P4 is low"
+    "notes": "Trigger only if response rate from P4 is low",
+    "automationTier": "alert"
   },
   {
     "id": "P5-M",
@@ -614,7 +658,8 @@ var ROADMAP_DATA = [
       "P5.4"
     ],
     "milestone": true,
-    "notes": null
+    "notes": null,
+    "automationTier": "alert"
   },
   {
     "id": "P6.1",
@@ -628,7 +673,8 @@ var ROADMAP_DATA = [
       "P5-M"
     ],
     "milestone": false,
-    "notes": null
+    "notes": null,
+    "automationTier": "alert"
   },
   {
     "id": "P6.2",
@@ -642,7 +688,8 @@ var ROADMAP_DATA = [
       "P6.1"
     ],
     "milestone": false,
-    "notes": "Spans Christmas/New Year - expect council-side slowdown build in buffer"
+    "notes": "Spans Christmas/New Year - expect council-side slowdown build in buffer",
+    "automationTier": "alert"
   },
   {
     "id": "P6.3",
@@ -656,7 +703,8 @@ var ROADMAP_DATA = [
       "P6.2"
     ],
     "milestone": false,
-    "notes": null
+    "notes": null,
+    "automationTier": "alert"
   },
   {
     "id": "P6.4",
@@ -670,7 +718,8 @@ var ROADMAP_DATA = [
       "P6.3"
     ],
     "milestone": true,
-    "notes": null
+    "notes": null,
+    "automationTier": "alert"
   },
   {
     "id": "P6.5",
@@ -684,7 +733,8 @@ var ROADMAP_DATA = [
       "P6.4"
     ],
     "milestone": false,
-    "notes": null
+    "notes": null,
+    "automationTier": "alert"
   },
   {
     "id": "P6-M",
@@ -698,7 +748,8 @@ var ROADMAP_DATA = [
       "P6.4"
     ],
     "milestone": true,
-    "notes": "6-month stretch target"
+    "notes": "6-month stretch target",
+    "automationTier": "alert"
   },
   {
     "id": "X.1",
@@ -710,7 +761,8 @@ var ROADMAP_DATA = [
     "status": "Not Started",
     "dependency": [],
     "milestone": false,
-    "notes": "Deliberately deferred until pipeline momentum exists (per prior decision) - revisit once a live deal is in Phase 5"
+    "notes": "Deliberately deferred until pipeline momentum exists (per prior decision) - revisit once a live deal is in Phase 5",
+    "automationTier": "alert"
   },
   {
     "id": "X.2",
@@ -724,7 +776,159 @@ var ROADMAP_DATA = [
       "P3.7"
     ],
     "milestone": true,
-    "notes": "Date TBD - depends on P3.7 research; update this row once the next window is known"
+    "notes": "CONFIRMED CLOSED for this cycle (2026-08-15 research): G-Cloud 15 window shut 30 Jan 2026, live Sept 2026 - cannot apply until G-Cloud 16 (date unknown, historically 12-18mo after prior go-live, so realistically not before 2027-2028). Do not treat G-Cloud listing as a route to the 6-month (Feb 2027) target - rely on Contracts Finder direct tenders + P4.9 MSP subcontracting instead.",
+    "automationTier": "alert"
+  },
+  {
+    "id": "X.3",
+    "phase": "Ongoing/Parallel",
+    "task": "DOS (Digital Outcomes & Specialists) framework application",
+    "start": null,
+    "end": null,
+    "duration": null,
+    "status": "Not Started",
+    "dependency": [],
+    "milestone": false,
+    "notes": "NEW (2026-08-15 research): DOS7 (RM1043.9) went live 30 Jan 2026, replacing DOS6 (expired 27 Jun 2026); combines Digital Outcomes 6 + Digital Specialists & Programmes. Supplier application windows reopen ~every 18 months, so next window is est. mid-to-late 2027 - not usable within the 6-month target either. Same implication as X.2: treat framework listing as a Year-2 goal, not part of the current push.",
+    "automationTier": "alert"
+  },
+  {
+    "id": "X.4",
+    "phase": "Ongoing/Parallel",
+    "task": "Join techUK's Public Sector / GovTech programme as a member",
+    "start": 46266,
+    "end": 46273,
+    "duration": 5,
+    "status": "Not Started",
+    "dependency": [],
+    "milestone": false,
+    "notes": "NEW (2026-08-16, from Framework Options and Relationship-Building Roadmap Briefing): Access to council/NHS buyer working groups and events; membership tier/cost to confirm on techUK.org. Window: 2026 Q3",
+    "automationTier": "research"
+  },
+  {
+    "id": "X.5",
+    "phase": "Ongoing/Parallel",
+    "task": "Join Socitm as an associate/supplier",
+    "start": 46273,
+    "end": 46280,
+    "duration": 5,
+    "status": "Not Started",
+    "dependency": [],
+    "milestone": false,
+    "notes": "NEW (2026-08-16): UK local-government IT leadership body; Socitm Spring/Autumn conferences are a direct route to Heads of IT/CIOs - confirm current membership terms. Window: 2026 Q3",
+    "automationTier": "research"
+  },
+  {
+    "id": "X.6",
+    "phase": "Ongoing/Parallel",
+    "task": "Register interest in UKAuthority and GovNet public-sector cyber/digital events",
+    "start": 46296,
+    "end": 46303,
+    "duration": 5,
+    "status": "Not Started",
+    "dependency": [],
+    "milestone": false,
+    "notes": "NEW (2026-08-16): e.g. GovNet's cyber/digital-government summits, UKAuthority's Cyber and Digital Council events - confirm current-year dates and costs before booking. Window: 2026 Q4 onward",
+    "automationTier": "research"
+  },
+  {
+    "id": "X.7",
+    "phase": "Ongoing/Parallel",
+    "task": "Attend AWS Summit London (public-sector track) and pursue AWS Partner Network Immersion Days",
+    "start": null,
+    "end": null,
+    "duration": null,
+    "status": "Not Started",
+    "dependency": [],
+    "milestone": false,
+    "notes": "NEW (2026-08-16): Directly reinforces the P4.9 MSP-subcontracting channel by building the AWS-side relationships, not just the buyer-side ones. Window: 2026 Q4 - 2027",
+    "automationTier": "research"
+  },
+  {
+    "id": "X.8",
+    "phase": "Ongoing/Parallel",
+    "task": "Target ICP-specific sector events (housing, NHS)",
+    "start": null,
+    "end": null,
+    "duration": null,
+    "status": "Not Started",
+    "dependency": [],
+    "milestone": false,
+    "notes": "NEW (2026-08-16): e.g. Housing Technology conference (matches the real ISHA-shaped ICP in P4.0), Digital Health Rewired for NHS trusts. Window: 2027, as relevant",
+    "automationTier": "research"
+  },
+  {
+    "id": "X.9",
+    "phase": "Ongoing/Parallel",
+    "task": "Pursue a speaking slot, panel, or webinar once the first case study exists",
+    "start": null,
+    "end": null,
+    "duration": null,
+    "status": "Not Started",
+    "dependency": [
+      "P5.5"
+    ],
+    "milestone": false,
+    "notes": "NEW (2026-08-16): Converts the first pilot into visible proof rather than a written case study sitting unused. Window: After P5.5",
+    "automationTier": "draft"
+  },
+  {
+    "id": "X.10",
+    "phase": "Ongoing/Parallel",
+    "task": "Track CyberUK (NCSC's flagship conference) for possible attendance/sponsorship",
+    "start": null,
+    "end": null,
+    "duration": null,
+    "status": "Not Started",
+    "dependency": [],
+    "milestone": false,
+    "notes": "NEW (2026-08-16): High-credibility venue given Heimdall's NCSC-alignment positioning; exhibitor cost is likely a gating factor - budget-dependent. Window: Annual, typically May - confirm",
+    "automationTier": "research"
+  },
+  {
+    "id": "X.11",
+    "phase": "Ongoing/Parallel",
+    "task": "Research rolling-entry DPS / regional consortium cyber frameworks",
+    "start": 46296,
+    "end": 46310,
+    "duration": 10,
+    "status": "Not Started",
+    "dependency": [],
+    "milestone": false,
+    "notes": "NEW (2026-08-16): UNVERIFIED - flagged for research: verify whether CCS Cyber Security Services DPS, ESPO, YPO, Crescent Purchasing Consortium or NHS Shared Business Services runs an open-enrolment cyber/cloud security DPS before treating it as a real channel. Window: 2026 Q4",
+    "automationTier": "draft"
+  },
+  {
+    "id": "X.12",
+    "phase": "Ongoing/Parallel",
+    "task": "Quarterly check of G-Cloud 16 / next DOS window dates via the gov.uk Digital Marketplace supplier blog",
+    "start": null,
+    "end": null,
+    "duration": null,
+    "status": "Not Started",
+    "dependency": [
+      "P3.7"
+    ],
+    "milestone": false,
+    "notes": "NEW (2026-08-16): Supersedes the one-off P3.7 check with an ongoing cadence - don't wait for an announcement email. Window: Quarterly, 2026 Q4 - 2027",
+    "automationTier": "research"
+  },
+  {
+    "id": "X.13",
+    "phase": "Ongoing/Parallel",
+    "task": "Submit G-Cloud 16 and next DOS application the moment each window opens",
+    "start": null,
+    "end": null,
+    "duration": null,
+    "status": "Not Started",
+    "dependency": [
+      "P0.3",
+      "P1.1",
+      "P5.5"
+    ],
+    "milestone": false,
+    "notes": "NEW (2026-08-16): Prerequisites (Cyber Essentials Basic, insurance, 2-3 references) should already be closed out via P0.3, P1.1 and P5.5 by this point. Window: Trigger-based, est. 2027-2028",
+    "automationTier": "alert"
   }
 ];
-var ROADMAP_GENERATED_AT = "2026-08-15 08:48";
+var ROADMAP_GENERATED_AT = "2026-08-16 12:40";

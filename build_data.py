@@ -28,6 +28,7 @@ FIELD_MAP = {
     "Dependency": "dependency",
     "Milestone": "milestone",
     "Notes/Deliverable": "notes",
+    "Automation Tier": "automationTier",
 }
 
 
@@ -54,6 +55,7 @@ def main():
             rec["notes"] = (rec.get("notes") or "").rstrip() + " " + str(extra).strip()
             rec["notes"] = rec["notes"].strip()
         rec["milestone"] = (rec.get("milestone") or "N").strip().upper() == "Y"
+        rec["automationTier"] = (rec.get("automationTier") or "alert").strip().lower()
         rec["dependency"] = (
             [d.strip() for d in rec["dependency"].split(",")] if rec.get("dependency") else []
         )
